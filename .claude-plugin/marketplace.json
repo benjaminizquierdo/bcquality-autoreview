@@ -1,0 +1,13 @@
+{
+  "name": "bcquality-autoreview",
+  "owner": { "name": "benja" },
+  "metadata": { "description": "Mods de Claude Code para proyectos AL de Business Central" },
+  "plugins": [
+    {
+      "name": "bcquality-autoreview",
+      "source": "./",
+      "description": "Cuando Claude edita un archivo .al de Business Central, le pide revisar el cambio con microsoft/BCQuality.",
+      "version": "0.1.0"
+    }
+  ]
+}

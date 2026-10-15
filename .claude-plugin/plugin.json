@@ -1,0 +1,14 @@
+{
+  "name": "bcquality-autoreview",
+  "version": "0.1.0",
+  "description": "After Claude edits a Business Central .al file, asks it to review the change with microsoft/BCQuality.",
+  "author": { "name": "benja" },
+  "userConfig": {
+    "path": {
+      "type": "string",
+      "title": "BCQuality folder",
+      "description": "Local clone of microsoft/BCQuality. Empty means ~/BCQuality; if that is missing, the GitHub copy is used.",
+      "default": ""
+    }
+  }
+}
